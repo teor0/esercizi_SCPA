@@ -64,10 +64,16 @@ CMAKE_BINARY_DIR = /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output
 
 # The main recursive "all" target.
 all: CMakeFiles/hello.dir/all
+all: CMakeFiles/pingpong.dir/all
+all: CMakeFiles/calcolo_integrale.dir/all
+all: CMakeFiles/calcolo_integrale_root.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/hello.dir/codegen
+codegen: CMakeFiles/pingpong.dir/codegen
+codegen: CMakeFiles/calcolo_integrale.dir/codegen
+codegen: CMakeFiles/calcolo_integrale_root.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -76,6 +82,9 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/hello.dir/clean
+clean: CMakeFiles/pingpong.dir/clean
+clean: CMakeFiles/calcolo_integrale.dir/clean
+clean: CMakeFiles/calcolo_integrale_root.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -85,7 +94,7 @@ clean: CMakeFiles/hello.dir/clean
 CMakeFiles/hello.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles --progress-num=1,2 "Built target hello"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles --progress-num=5,6 "Built target hello"
 .PHONY : CMakeFiles/hello.dir/all
 
 # Build rule for subdir invocation for target.
@@ -102,13 +111,109 @@ hello: CMakeFiles/hello.dir/rule
 # codegen rule for target.
 CMakeFiles/hello.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles --progress-num=1,2 "Finished codegen for target hello"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles --progress-num=5,6 "Finished codegen for target hello"
 .PHONY : CMakeFiles/hello.dir/codegen
 
 # clean rule for target.
 CMakeFiles/hello.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/clean
 .PHONY : CMakeFiles/hello.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/pingpong.dir
+
+# All Build rule for target.
+CMakeFiles/pingpong.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pingpong.dir/build.make CMakeFiles/pingpong.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pingpong.dir/build.make CMakeFiles/pingpong.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles --progress-num=7,8 "Built target pingpong"
+.PHONY : CMakeFiles/pingpong.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pingpong.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/pingpong.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles 0
+.PHONY : CMakeFiles/pingpong.dir/rule
+
+# Convenience name for target.
+pingpong: CMakeFiles/pingpong.dir/rule
+.PHONY : pingpong
+
+# codegen rule for target.
+CMakeFiles/pingpong.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pingpong.dir/build.make CMakeFiles/pingpong.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles --progress-num=7,8 "Finished codegen for target pingpong"
+.PHONY : CMakeFiles/pingpong.dir/codegen
+
+# clean rule for target.
+CMakeFiles/pingpong.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pingpong.dir/build.make CMakeFiles/pingpong.dir/clean
+.PHONY : CMakeFiles/pingpong.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/calcolo_integrale.dir
+
+# All Build rule for target.
+CMakeFiles/calcolo_integrale.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calcolo_integrale.dir/build.make CMakeFiles/calcolo_integrale.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calcolo_integrale.dir/build.make CMakeFiles/calcolo_integrale.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles --progress-num=1,2 "Built target calcolo_integrale"
+.PHONY : CMakeFiles/calcolo_integrale.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/calcolo_integrale.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/calcolo_integrale.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles 0
+.PHONY : CMakeFiles/calcolo_integrale.dir/rule
+
+# Convenience name for target.
+calcolo_integrale: CMakeFiles/calcolo_integrale.dir/rule
+.PHONY : calcolo_integrale
+
+# codegen rule for target.
+CMakeFiles/calcolo_integrale.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calcolo_integrale.dir/build.make CMakeFiles/calcolo_integrale.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles --progress-num=1,2 "Finished codegen for target calcolo_integrale"
+.PHONY : CMakeFiles/calcolo_integrale.dir/codegen
+
+# clean rule for target.
+CMakeFiles/calcolo_integrale.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calcolo_integrale.dir/build.make CMakeFiles/calcolo_integrale.dir/clean
+.PHONY : CMakeFiles/calcolo_integrale.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/calcolo_integrale_root.dir
+
+# All Build rule for target.
+CMakeFiles/calcolo_integrale_root.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calcolo_integrale_root.dir/build.make CMakeFiles/calcolo_integrale_root.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calcolo_integrale_root.dir/build.make CMakeFiles/calcolo_integrale_root.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles --progress-num=3,4 "Built target calcolo_integrale_root"
+.PHONY : CMakeFiles/calcolo_integrale_root.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/calcolo_integrale_root.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/calcolo_integrale_root.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles 0
+.PHONY : CMakeFiles/calcolo_integrale_root.dir/rule
+
+# Convenience name for target.
+calcolo_integrale_root: CMakeFiles/calcolo_integrale_root.dir/rule
+.PHONY : calcolo_integrale_root
+
+# codegen rule for target.
+CMakeFiles/calcolo_integrale_root.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calcolo_integrale_root.dir/build.make CMakeFiles/calcolo_integrale_root.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles --progress-num=3,4 "Finished codegen for target calcolo_integrale_root"
+.PHONY : CMakeFiles/calcolo_integrale_root.dir/codegen
+
+# clean rule for target.
+CMakeFiles/calcolo_integrale_root.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calcolo_integrale_root.dir/build.make CMakeFiles/calcolo_integrale_root.dir/clean
+.PHONY : CMakeFiles/calcolo_integrale_root.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

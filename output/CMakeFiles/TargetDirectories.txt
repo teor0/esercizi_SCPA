@@ -1,3 +1,6 @@
 /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/hello.dir
+/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/pingpong.dir
+/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/calcolo_integrale.dir
+/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/calcolo_integrale_root.dir
 /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/edit_cache.dir
 /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/rebuild_cache.dir

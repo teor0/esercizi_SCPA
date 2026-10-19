@@ -6,5 +6,5 @@ C_DEFINES =
 
 C_INCLUDES = -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi
 
-C_FLAGS = -Wall -Wextra -Wpedantic
+C_FLAGS = 
 

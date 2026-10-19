@@ -1,0 +1,1 @@
+/usr/bin/cc -Wl,--dependency-file=CMakeFiles/calcolo_integrale_root.dir/link.d CMakeFiles/calcolo_integrale_root.dir/src/calcolo_integrale/root_version.c.o -o calcolo_integrale_root  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so

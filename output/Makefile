@@ -129,6 +129,93 @@ hello/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/build
 .PHONY : hello/fast
 
+#=============================================================================
+# Target rules for targets named pingpong
+
+# Build rule for target.
+pingpong: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pingpong
+.PHONY : pingpong
+
+# fast build rule for target.
+pingpong/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pingpong.dir/build.make CMakeFiles/pingpong.dir/build
+.PHONY : pingpong/fast
+
+#=============================================================================
+# Target rules for targets named calcolo_integrale
+
+# Build rule for target.
+calcolo_integrale: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 calcolo_integrale
+.PHONY : calcolo_integrale
+
+# fast build rule for target.
+calcolo_integrale/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calcolo_integrale.dir/build.make CMakeFiles/calcolo_integrale.dir/build
+.PHONY : calcolo_integrale/fast
+
+#=============================================================================
+# Target rules for targets named calcolo_integrale_root
+
+# Build rule for target.
+calcolo_integrale_root: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 calcolo_integrale_root
+.PHONY : calcolo_integrale_root
+
+# fast build rule for target.
+calcolo_integrale_root/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calcolo_integrale_root.dir/build.make CMakeFiles/calcolo_integrale_root.dir/build
+.PHONY : calcolo_integrale_root/fast
+
+src/calcolo_integrale/main.o: src/calcolo_integrale/main.c.o
+.PHONY : src/calcolo_integrale/main.o
+
+# target to build an object file
+src/calcolo_integrale/main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calcolo_integrale.dir/build.make CMakeFiles/calcolo_integrale.dir/src/calcolo_integrale/main.c.o
+.PHONY : src/calcolo_integrale/main.c.o
+
+src/calcolo_integrale/main.i: src/calcolo_integrale/main.c.i
+.PHONY : src/calcolo_integrale/main.i
+
+# target to preprocess a source file
+src/calcolo_integrale/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calcolo_integrale.dir/build.make CMakeFiles/calcolo_integrale.dir/src/calcolo_integrale/main.c.i
+.PHONY : src/calcolo_integrale/main.c.i
+
+src/calcolo_integrale/main.s: src/calcolo_integrale/main.c.s
+.PHONY : src/calcolo_integrale/main.s
+
+# target to generate assembly for a file
+src/calcolo_integrale/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calcolo_integrale.dir/build.make CMakeFiles/calcolo_integrale.dir/src/calcolo_integrale/main.c.s
+.PHONY : src/calcolo_integrale/main.c.s
+
+src/calcolo_integrale/root_version.o: src/calcolo_integrale/root_version.c.o
+.PHONY : src/calcolo_integrale/root_version.o
+
+# target to build an object file
+src/calcolo_integrale/root_version.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calcolo_integrale_root.dir/build.make CMakeFiles/calcolo_integrale_root.dir/src/calcolo_integrale/root_version.c.o
+.PHONY : src/calcolo_integrale/root_version.c.o
+
+src/calcolo_integrale/root_version.i: src/calcolo_integrale/root_version.c.i
+.PHONY : src/calcolo_integrale/root_version.i
+
+# target to preprocess a source file
+src/calcolo_integrale/root_version.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calcolo_integrale_root.dir/build.make CMakeFiles/calcolo_integrale_root.dir/src/calcolo_integrale/root_version.c.i
+.PHONY : src/calcolo_integrale/root_version.c.i
+
+src/calcolo_integrale/root_version.s: src/calcolo_integrale/root_version.c.s
+.PHONY : src/calcolo_integrale/root_version.s
+
+# target to generate assembly for a file
+src/calcolo_integrale/root_version.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calcolo_integrale_root.dir/build.make CMakeFiles/calcolo_integrale_root.dir/src/calcolo_integrale/root_version.c.s
+.PHONY : src/calcolo_integrale/root_version.c.s
+
 src/helloworld/hello.o: src/helloworld/hello.c.o
 .PHONY : src/helloworld/hello.o
 
@@ -153,6 +240,30 @@ src/helloworld/hello.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/src/helloworld/hello.c.s
 .PHONY : src/helloworld/hello.c.s
 
+src/pingpong/main.o: src/pingpong/main.c.o
+.PHONY : src/pingpong/main.o
+
+# target to build an object file
+src/pingpong/main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pingpong.dir/build.make CMakeFiles/pingpong.dir/src/pingpong/main.c.o
+.PHONY : src/pingpong/main.c.o
+
+src/pingpong/main.i: src/pingpong/main.c.i
+.PHONY : src/pingpong/main.i
+
+# target to preprocess a source file
+src/pingpong/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pingpong.dir/build.make CMakeFiles/pingpong.dir/src/pingpong/main.c.i
+.PHONY : src/pingpong/main.c.i
+
+src/pingpong/main.s: src/pingpong/main.c.s
+.PHONY : src/pingpong/main.s
+
+# target to generate assembly for a file
+src/pingpong/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pingpong.dir/build.make CMakeFiles/pingpong.dir/src/pingpong/main.c.s
+.PHONY : src/pingpong/main.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -161,10 +272,22 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... calcolo_integrale"
+	@echo "... calcolo_integrale_root"
 	@echo "... hello"
+	@echo "... pingpong"
+	@echo "... src/calcolo_integrale/main.o"
+	@echo "... src/calcolo_integrale/main.i"
+	@echo "... src/calcolo_integrale/main.s"
+	@echo "... src/calcolo_integrale/root_version.o"
+	@echo "... src/calcolo_integrale/root_version.i"
+	@echo "... src/calcolo_integrale/root_version.s"
 	@echo "... src/helloworld/hello.o"
 	@echo "... src/helloworld/hello.i"
 	@echo "... src/helloworld/hello.s"
+	@echo "... src/pingpong/main.o"
+	@echo "... src/pingpong/main.i"
+	@echo "... src/pingpong/main.s"
 .PHONY : help
 
 
