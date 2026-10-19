@@ -1,0 +1,3 @@
+/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/hello.dir
+/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/edit_cache.dir
+/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/rebuild_cache.dir
