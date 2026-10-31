@@ -96,8 +96,9 @@ int main(int argc, char *argv[]) {
         else
             send_buf[i] = '1';
         }
-
+        MPI_Barrier(MPI_COMM_WORLD);
         if (my_rank == 0) {
+                
                 double start=MPI_Wtime();
                 for(int i=0; i< ITERATIONS; i++){
                         MPI_Send(send_buf,n,MPI_BYTE,1,1,MPI_COMM_WORLD);

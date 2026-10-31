@@ -1,0 +1,1 @@
+/usr/bin/cc -Wl,--dependency-file=CMakeFiles/broadcast_version.dir/link.d CMakeFiles/broadcast_version.dir/src/calcolo_integrale/broadcast_version.c.o -o broadcast_version  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so

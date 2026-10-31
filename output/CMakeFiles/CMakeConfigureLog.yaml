@@ -617,3 +617,1409 @@ events:
         
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-AxmbyK"
+      binary: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-AxmbyK"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-AxmbyK'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4a605/fast
+        gmake[1]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-AxmbyK'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_4a605.dir/build.make CMakeFiles/cmTC_4a605.dir/build
+        gmake[2]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-AxmbyK'
+        Building C object CMakeFiles/cmTC_4a605.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_4a605.dir/test_mpi.c.o -c /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-AxmbyK/test_mpi.c
+        Linking C executable cmTC_4a605
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a605.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_4a605.dir/test_mpi.c.o -o cmTC_4a605  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-AxmbyK'
+        gmake[1]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-AxmbyK'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-0Q2gfN"
+      binary: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-0Q2gfN"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-0Q2gfN'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ea1e6/fast
+        gmake[1]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-0Q2gfN'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ea1e6.dir/build.make CMakeFiles/cmTC_ea1e6.dir/build
+        gmake[2]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-0Q2gfN'
+        Building C object CMakeFiles/cmTC_ea1e6.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_ea1e6.dir/test_mpi.c.o -c /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-0Q2gfN/test_mpi.c
+        Linking C executable cmTC_ea1e6
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea1e6.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_ea1e6.dir/test_mpi.c.o -o cmTC_ea1e6  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-0Q2gfN'
+        gmake[1]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-0Q2gfN'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-x5aMK4"
+      binary: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-x5aMK4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-x5aMK4'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a9ddc/fast
+        gmake[1]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-x5aMK4'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a9ddc.dir/build.make CMakeFiles/cmTC_a9ddc.dir/build
+        gmake[2]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-x5aMK4'
+        Building C object CMakeFiles/cmTC_a9ddc.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_a9ddc.dir/test_mpi.c.o -c /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-x5aMK4/test_mpi.c
+        Linking C executable cmTC_a9ddc
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9ddc.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_a9ddc.dir/test_mpi.c.o -o cmTC_a9ddc  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-x5aMK4'
+        gmake[1]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-x5aMK4'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-RfPEm2"
+      binary: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-RfPEm2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-RfPEm2'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a5073/fast
+        gmake[1]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-RfPEm2'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a5073.dir/build.make CMakeFiles/cmTC_a5073.dir/build
+        gmake[2]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-RfPEm2'
+        Building C object CMakeFiles/cmTC_a5073.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_a5073.dir/test_mpi.c.o -c /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-RfPEm2/test_mpi.c
+        Linking C executable cmTC_a5073
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5073.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_a5073.dir/test_mpi.c.o -o cmTC_a5073  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-RfPEm2'
+        gmake[1]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-RfPEm2'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-q4HNLz"
+      binary: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-q4HNLz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-q4HNLz'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_06642/fast
+        gmake[1]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-q4HNLz'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_06642.dir/build.make CMakeFiles/cmTC_06642.dir/build
+        gmake[2]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-q4HNLz'
+        Building C object CMakeFiles/cmTC_06642.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_06642.dir/test_mpi.c.o -c /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-q4HNLz/test_mpi.c
+        Linking C executable cmTC_06642
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06642.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_06642.dir/test_mpi.c.o -o cmTC_06642  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-q4HNLz'
+        gmake[1]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-q4HNLz'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-6bumiA"
+      binary: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-6bumiA"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-6bumiA'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_92ae7/fast
+        gmake[1]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-6bumiA'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_92ae7.dir/build.make CMakeFiles/cmTC_92ae7.dir/build
+        gmake[2]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-6bumiA'
+        Building C object CMakeFiles/cmTC_92ae7.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_92ae7.dir/test_mpi.c.o -c /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-6bumiA/test_mpi.c
+        Linking C executable cmTC_92ae7
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92ae7.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_92ae7.dir/test_mpi.c.o -o cmTC_92ae7  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-6bumiA'
+        gmake[1]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-6bumiA'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-R9GGUi"
+      binary: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-R9GGUi"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-R9GGUi'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1e15f/fast
+        gmake[1]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-R9GGUi'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_1e15f.dir/build.make CMakeFiles/cmTC_1e15f.dir/build
+        gmake[2]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-R9GGUi'
+        Building C object CMakeFiles/cmTC_1e15f.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_1e15f.dir/test_mpi.c.o -c /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-R9GGUi/test_mpi.c
+        Linking C executable cmTC_1e15f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e15f.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_1e15f.dir/test_mpi.c.o -o cmTC_1e15f  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-R9GGUi'
+        gmake[1]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-R9GGUi'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-uAJB82"
+      binary: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-uAJB82"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-uAJB82'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f31ab/fast
+        gmake[1]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-uAJB82'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f31ab.dir/build.make CMakeFiles/cmTC_f31ab.dir/build
+        gmake[2]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-uAJB82'
+        Building C object CMakeFiles/cmTC_f31ab.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_f31ab.dir/test_mpi.c.o -c /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-uAJB82/test_mpi.c
+        Linking C executable cmTC_f31ab
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f31ab.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_f31ab.dir/test_mpi.c.o -o cmTC_f31ab  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-uAJB82'
+        gmake[1]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-uAJB82'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-f38T6b"
+      binary: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-f38T6b"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-f38T6b'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a0ffe/fast
+        gmake[1]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-f38T6b'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a0ffe.dir/build.make CMakeFiles/cmTC_a0ffe.dir/build
+        gmake[2]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-f38T6b'
+        Building C object CMakeFiles/cmTC_a0ffe.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_a0ffe.dir/test_mpi.c.o -c /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-f38T6b/test_mpi.c
+        Linking C executable cmTC_a0ffe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0ffe.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_a0ffe.dir/test_mpi.c.o -o cmTC_a0ffe  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-f38T6b'
+        gmake[1]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-f38T6b'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-fc49VR"
+      binary: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-fc49VR"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-fc49VR'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_83d9a/fast
+        gmake[1]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-fc49VR'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_83d9a.dir/build.make CMakeFiles/cmTC_83d9a.dir/build
+        gmake[2]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-fc49VR'
+        Building C object CMakeFiles/cmTC_83d9a.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_83d9a.dir/test_mpi.c.o -c /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-fc49VR/test_mpi.c
+        Linking C executable cmTC_83d9a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83d9a.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_83d9a.dir/test_mpi.c.o -o cmTC_83d9a  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-fc49VR'
+        gmake[1]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-fc49VR'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-GKTZAP"
+      binary: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-GKTZAP"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-GKTZAP'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_fb27e/fast
+        gmake[1]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-GKTZAP'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_fb27e.dir/build.make CMakeFiles/cmTC_fb27e.dir/build
+        gmake[2]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-GKTZAP'
+        Building C object CMakeFiles/cmTC_fb27e.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_fb27e.dir/test_mpi.c.o -c /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-GKTZAP/test_mpi.c
+        Linking C executable cmTC_fb27e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb27e.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_fb27e.dir/test_mpi.c.o -o cmTC_fb27e  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-GKTZAP'
+        gmake[1]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-GKTZAP'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-6wrHOF"
+      binary: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-6wrHOF"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-6wrHOF'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6afa0/fast
+        gmake[1]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-6wrHOF'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_6afa0.dir/build.make CMakeFiles/cmTC_6afa0.dir/build
+        gmake[2]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-6wrHOF'
+        Building C object CMakeFiles/cmTC_6afa0.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_6afa0.dir/test_mpi.c.o -c /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-6wrHOF/test_mpi.c
+        Linking C executable cmTC_6afa0
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6afa0.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_6afa0.dir/test_mpi.c.o -o cmTC_6afa0  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-6wrHOF'
+        gmake[1]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-6wrHOF'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-fJdPqv"
+      binary: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-fJdPqv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-fJdPqv'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6ca9f/fast
+        gmake[1]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-fJdPqv'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_6ca9f.dir/build.make CMakeFiles/cmTC_6ca9f.dir/build
+        gmake[2]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-fJdPqv'
+        Building C object CMakeFiles/cmTC_6ca9f.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_6ca9f.dir/test_mpi.c.o -c /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-fJdPqv/test_mpi.c
+        Linking C executable cmTC_6ca9f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ca9f.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_6ca9f.dir/test_mpi.c.o -o cmTC_6ca9f  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-fJdPqv'
+        gmake[1]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-fJdPqv'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-qKraGO"
+      binary: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-qKraGO"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-qKraGO'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f6889/fast
+        gmake[1]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-qKraGO'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f6889.dir/build.make CMakeFiles/cmTC_f6889.dir/build
+        gmake[2]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-qKraGO'
+        Building C object CMakeFiles/cmTC_f6889.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_f6889.dir/test_mpi.c.o -c /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-qKraGO/test_mpi.c
+        Linking C executable cmTC_f6889
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6889.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_f6889.dir/test_mpi.c.o -o cmTC_f6889  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-qKraGO'
+        gmake[1]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-qKraGO'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-2CV2Sy"
+      binary: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-2CV2Sy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-2CV2Sy'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4674b/fast
+        gmake[1]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-2CV2Sy'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_4674b.dir/build.make CMakeFiles/cmTC_4674b.dir/build
+        gmake[2]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-2CV2Sy'
+        Building C object CMakeFiles/cmTC_4674b.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_4674b.dir/test_mpi.c.o -c /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-2CV2Sy/test_mpi.c
+        Linking C executable cmTC_4674b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4674b.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_4674b.dir/test_mpi.c.o -o cmTC_4674b  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-2CV2Sy'
+        gmake[1]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-2CV2Sy'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-oP0dzu"
+      binary: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-oP0dzu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-oP0dzu'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_fd0e5/fast
+        gmake[1]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-oP0dzu'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_fd0e5.dir/build.make CMakeFiles/cmTC_fd0e5.dir/build
+        gmake[2]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-oP0dzu'
+        Building C object CMakeFiles/cmTC_fd0e5.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_fd0e5.dir/test_mpi.c.o -c /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-oP0dzu/test_mpi.c
+        Linking C executable cmTC_fd0e5
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd0e5.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_fd0e5.dir/test_mpi.c.o -o cmTC_fd0e5  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-oP0dzu'
+        gmake[1]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-oP0dzu'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-qk8jB7"
+      binary: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-qk8jB7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-qk8jB7'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_27758/fast
+        gmake[1]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-qk8jB7'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_27758.dir/build.make CMakeFiles/cmTC_27758.dir/build
+        gmake[2]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-qk8jB7'
+        Building C object CMakeFiles/cmTC_27758.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_27758.dir/test_mpi.c.o -c /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-qk8jB7/test_mpi.c
+        Linking C executable cmTC_27758
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27758.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_27758.dir/test_mpi.c.o -o cmTC_27758  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-qk8jB7'
+        gmake[1]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-qk8jB7'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-8F34kI"
+      binary: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-8F34kI"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-8F34kI'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_bf6f7/fast
+        gmake[1]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-8F34kI'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_bf6f7.dir/build.make CMakeFiles/cmTC_bf6f7.dir/build
+        gmake[2]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-8F34kI'
+        Building C object CMakeFiles/cmTC_bf6f7.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_bf6f7.dir/test_mpi.c.o -c /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-8F34kI/test_mpi.c
+        Linking C executable cmTC_bf6f7
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf6f7.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_bf6f7.dir/test_mpi.c.o -o cmTC_bf6f7  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-8F34kI'
+        gmake[1]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-8F34kI'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-Ozhuag"
+      binary: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-Ozhuag"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-Ozhuag'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d4880/fast
+        gmake[1]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-Ozhuag'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d4880.dir/build.make CMakeFiles/cmTC_d4880.dir/build
+        gmake[2]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-Ozhuag'
+        Building C object CMakeFiles/cmTC_d4880.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_d4880.dir/test_mpi.c.o -c /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-Ozhuag/test_mpi.c
+        Linking C executable cmTC_d4880
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4880.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_d4880.dir/test_mpi.c.o -o cmTC_d4880  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-Ozhuag'
+        gmake[1]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-Ozhuag'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-MfR72u"
+      binary: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-MfR72u"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-MfR72u'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f843e/fast
+        gmake[1]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-MfR72u'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f843e.dir/build.make CMakeFiles/cmTC_f843e.dir/build
+        gmake[2]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-MfR72u'
+        Building C object CMakeFiles/cmTC_f843e.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_f843e.dir/test_mpi.c.o -c /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-MfR72u/test_mpi.c
+        Linking C executable cmTC_f843e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f843e.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_f843e.dir/test_mpi.c.o -o cmTC_f843e  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-MfR72u'
+        gmake[1]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-MfR72u'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-ABz9lO"
+      binary: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-ABz9lO"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-ABz9lO'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c4249/fast
+        gmake[1]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-ABz9lO'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c4249.dir/build.make CMakeFiles/cmTC_c4249.dir/build
+        gmake[2]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-ABz9lO'
+        Building C object CMakeFiles/cmTC_c4249.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_c4249.dir/test_mpi.c.o -c /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-ABz9lO/test_mpi.c
+        Linking C executable cmTC_c4249
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4249.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_c4249.dir/test_mpi.c.o -o cmTC_c4249  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-ABz9lO'
+        gmake[1]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-ABz9lO'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-m6YYQR"
+      binary: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-m6YYQR"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-m6YYQR'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_89489/fast
+        gmake[1]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-m6YYQR'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_89489.dir/build.make CMakeFiles/cmTC_89489.dir/build
+        gmake[2]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-m6YYQR'
+        Building C object CMakeFiles/cmTC_89489.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_89489.dir/test_mpi.c.o -c /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-m6YYQR/test_mpi.c
+        Linking C executable cmTC_89489
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89489.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_89489.dir/test_mpi.c.o -o cmTC_89489  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-m6YYQR'
+        gmake[1]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-m6YYQR'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-uQhlft"
+      binary: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-uQhlft"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-uQhlft'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_77f30/fast
+        gmake[1]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-uQhlft'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_77f30.dir/build.make CMakeFiles/cmTC_77f30.dir/build
+        gmake[2]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-uQhlft'
+        Building C object CMakeFiles/cmTC_77f30.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_77f30.dir/test_mpi.c.o -c /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-uQhlft/test_mpi.c
+        Linking C executable cmTC_77f30
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77f30.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_77f30.dir/test_mpi.c.o -o cmTC_77f30  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-uQhlft'
+        gmake[1]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-uQhlft'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-cNcFDp"
+      binary: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-cNcFDp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-cNcFDp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0513d/fast
+        gmake[1]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-cNcFDp'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_0513d.dir/build.make CMakeFiles/cmTC_0513d.dir/build
+        gmake[2]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-cNcFDp'
+        Building C object CMakeFiles/cmTC_0513d.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_0513d.dir/test_mpi.c.o -c /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-cNcFDp/test_mpi.c
+        Linking C executable cmTC_0513d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0513d.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_0513d.dir/test_mpi.c.o -o cmTC_0513d  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-cNcFDp'
+        gmake[1]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-cNcFDp'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-dyZyuD"
+      binary: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-dyZyuD"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-dyZyuD'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_71a08/fast
+        gmake[1]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-dyZyuD'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_71a08.dir/build.make CMakeFiles/cmTC_71a08.dir/build
+        gmake[2]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-dyZyuD'
+        Building C object CMakeFiles/cmTC_71a08.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_71a08.dir/test_mpi.c.o -c /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-dyZyuD/test_mpi.c
+        Linking C executable cmTC_71a08
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71a08.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_71a08.dir/test_mpi.c.o -o cmTC_71a08  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-dyZyuD'
+        gmake[1]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-dyZyuD'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-e5bnQb"
+      binary: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-e5bnQb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-e5bnQb'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3db4f/fast
+        gmake[1]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-e5bnQb'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3db4f.dir/build.make CMakeFiles/cmTC_3db4f.dir/build
+        gmake[2]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-e5bnQb'
+        Building C object CMakeFiles/cmTC_3db4f.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_3db4f.dir/test_mpi.c.o -c /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-e5bnQb/test_mpi.c
+        Linking C executable cmTC_3db4f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3db4f.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_3db4f.dir/test_mpi.c.o -o cmTC_3db4f  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-e5bnQb'
+        gmake[1]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-e5bnQb'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-T6IPiT"
+      binary: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-T6IPiT"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-T6IPiT'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_cedd0/fast
+        gmake[1]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-T6IPiT'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_cedd0.dir/build.make CMakeFiles/cmTC_cedd0.dir/build
+        gmake[2]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-T6IPiT'
+        Building C object CMakeFiles/cmTC_cedd0.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_cedd0.dir/test_mpi.c.o -c /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-T6IPiT/test_mpi.c
+        Linking C executable cmTC_cedd0
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cedd0.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_cedd0.dir/test_mpi.c.o -o cmTC_cedd0  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-T6IPiT'
+        gmake[1]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-T6IPiT'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-b5Z2iF"
+      binary: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-b5Z2iF"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-b5Z2iF'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7b7bb/fast
+        gmake[1]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-b5Z2iF'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_7b7bb.dir/build.make CMakeFiles/cmTC_7b7bb.dir/build
+        gmake[2]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-b5Z2iF'
+        Building C object CMakeFiles/cmTC_7b7bb.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_7b7bb.dir/test_mpi.c.o -c /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-b5Z2iF/test_mpi.c
+        Linking C executable cmTC_7b7bb
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b7bb.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_7b7bb.dir/test_mpi.c.o -o cmTC_7b7bb  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-b5Z2iF'
+        gmake[1]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-b5Z2iF'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-81Y2hi"
+      binary: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-81Y2hi"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-81Y2hi'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_937a7/fast
+        gmake[1]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-81Y2hi'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_937a7.dir/build.make CMakeFiles/cmTC_937a7.dir/build
+        gmake[2]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-81Y2hi'
+        Building C object CMakeFiles/cmTC_937a7.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_937a7.dir/test_mpi.c.o -c /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-81Y2hi/test_mpi.c
+        Linking C executable cmTC_937a7
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_937a7.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_937a7.dir/test_mpi.c.o -o cmTC_937a7  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-81Y2hi'
+        gmake[1]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-81Y2hi'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-jID6LT"
+      binary: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-jID6LT"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-jID6LT'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d4cad/fast
+        gmake[1]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-jID6LT'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d4cad.dir/build.make CMakeFiles/cmTC_d4cad.dir/build
+        gmake[2]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-jID6LT'
+        Building C object CMakeFiles/cmTC_d4cad.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_d4cad.dir/test_mpi.c.o -c /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-jID6LT/test_mpi.c
+        Linking C executable cmTC_d4cad
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4cad.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_d4cad.dir/test_mpi.c.o -o cmTC_d4cad  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-jID6LT'
+        gmake[1]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-jID6LT'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-dKKLDK"
+      binary: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-dKKLDK"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-dKKLDK'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d41f7/fast
+        gmake[1]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-dKKLDK'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d41f7.dir/build.make CMakeFiles/cmTC_d41f7.dir/build
+        gmake[2]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-dKKLDK'
+        Building C object CMakeFiles/cmTC_d41f7.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_d41f7.dir/test_mpi.c.o -c /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-dKKLDK/test_mpi.c
+        Linking C executable cmTC_d41f7
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d41f7.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_d41f7.dir/test_mpi.c.o -o cmTC_d41f7  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-dKKLDK'
+        gmake[1]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-dKKLDK'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-GJcVrg"
+      binary: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-GJcVrg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-GJcVrg'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2016a/fast
+        gmake[1]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-GJcVrg'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_2016a.dir/build.make CMakeFiles/cmTC_2016a.dir/build
+        gmake[2]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-GJcVrg'
+        Building C object CMakeFiles/cmTC_2016a.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_2016a.dir/test_mpi.c.o -c /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-GJcVrg/test_mpi.c
+        Linking C executable cmTC_2016a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2016a.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_2016a.dir/test_mpi.c.o -o cmTC_2016a  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-GJcVrg'
+        gmake[1]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-GJcVrg'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-JwBw2C"
+      binary: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-JwBw2C"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-JwBw2C'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b4b84/fast
+        gmake[1]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-JwBw2C'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b4b84.dir/build.make CMakeFiles/cmTC_b4b84.dir/build
+        gmake[2]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-JwBw2C'
+        Building C object CMakeFiles/cmTC_b4b84.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_b4b84.dir/test_mpi.c.o -c /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-JwBw2C/test_mpi.c
+        Linking C executable cmTC_b4b84
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4b84.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_b4b84.dir/test_mpi.c.o -o cmTC_b4b84  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-JwBw2C'
+        gmake[1]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-JwBw2C'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-zPRJDo"
+      binary: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-zPRJDo"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-zPRJDo'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a6c2a/fast
+        gmake[1]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-zPRJDo'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a6c2a.dir/build.make CMakeFiles/cmTC_a6c2a.dir/build
+        gmake[2]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-zPRJDo'
+        Building C object CMakeFiles/cmTC_a6c2a.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_a6c2a.dir/test_mpi.c.o -c /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-zPRJDo/test_mpi.c
+        Linking C executable cmTC_a6c2a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6c2a.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_a6c2a.dir/test_mpi.c.o -o cmTC_a6c2a  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-zPRJDo'
+        gmake[1]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-zPRJDo'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-nuoiQc"
+      binary: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-nuoiQc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-nuoiQc'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ce6d6/fast
+        gmake[1]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-nuoiQc'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ce6d6.dir/build.make CMakeFiles/cmTC_ce6d6.dir/build
+        gmake[2]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-nuoiQc'
+        Building C object CMakeFiles/cmTC_ce6d6.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_ce6d6.dir/test_mpi.c.o -c /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-nuoiQc/test_mpi.c
+        Linking C executable cmTC_ce6d6
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce6d6.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_ce6d6.dir/test_mpi.c.o -o cmTC_ce6d6  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-nuoiQc'
+        gmake[1]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-nuoiQc'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-7GabI3"
+      binary: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-7GabI3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-7GabI3'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_32ce3/fast
+        gmake[1]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-7GabI3'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_32ce3.dir/build.make CMakeFiles/cmTC_32ce3.dir/build
+        gmake[2]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-7GabI3'
+        Building C object CMakeFiles/cmTC_32ce3.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_32ce3.dir/test_mpi.c.o -c /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-7GabI3/test_mpi.c
+        Linking C executable cmTC_32ce3
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32ce3.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_32ce3.dir/test_mpi.c.o -o cmTC_32ce3  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-7GabI3'
+        gmake[1]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-7GabI3'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-SnnDxV"
+      binary: "/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-SnnDxV"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-SnnDxV'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1f886/fast
+        gmake[1]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-SnnDxV'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_1f886.dir/build.make CMakeFiles/cmTC_1f886.dir/build
+        gmake[2]: Entering directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-SnnDxV'
+        Building C object CMakeFiles/cmTC_1f886.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_1f886.dir/test_mpi.c.o -c /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-SnnDxV/test_mpi.c
+        Linking C executable cmTC_1f886
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f886.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_1f886.dir/test_mpi.c.o -o cmTC_1f886  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-SnnDxV'
+        gmake[1]: Leaving directory '/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/CMakeScratch/TryCompile-SnnDxV'
+        
+      exitCode: 0
+...

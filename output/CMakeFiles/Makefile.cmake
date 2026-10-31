@@ -55,4 +55,9 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/pingpong.dir/DependInfo.cmake"
   "CMakeFiles/calcolo_integrale.dir/DependInfo.cmake"
   "CMakeFiles/calcolo_integrale_root.dir/DependInfo.cmake"
+  "CMakeFiles/int_broadcast_version.dir/DependInfo.cmake"
+  "CMakeFiles/int_derived_version.dir/DependInfo.cmake"
+  "CMakeFiles/best_version.dir/DependInfo.cmake"
+  "CMakeFiles/int_scatter_version.dir/DependInfo.cmake"
+  "CMakeFiles/dp_scatter_version.dir/DependInfo.cmake"
   )

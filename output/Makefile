@@ -168,6 +168,143 @@ calcolo_integrale_root/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/calcolo_integrale_root.dir/build.make CMakeFiles/calcolo_integrale_root.dir/build
 .PHONY : calcolo_integrale_root/fast
 
+#=============================================================================
+# Target rules for targets named int_broadcast_version
+
+# Build rule for target.
+int_broadcast_version: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 int_broadcast_version
+.PHONY : int_broadcast_version
+
+# fast build rule for target.
+int_broadcast_version/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/int_broadcast_version.dir/build.make CMakeFiles/int_broadcast_version.dir/build
+.PHONY : int_broadcast_version/fast
+
+#=============================================================================
+# Target rules for targets named int_derived_version
+
+# Build rule for target.
+int_derived_version: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 int_derived_version
+.PHONY : int_derived_version
+
+# fast build rule for target.
+int_derived_version/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/int_derived_version.dir/build.make CMakeFiles/int_derived_version.dir/build
+.PHONY : int_derived_version/fast
+
+#=============================================================================
+# Target rules for targets named best_version
+
+# Build rule for target.
+best_version: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 best_version
+.PHONY : best_version
+
+# fast build rule for target.
+best_version/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/best_version.dir/build.make CMakeFiles/best_version.dir/build
+.PHONY : best_version/fast
+
+#=============================================================================
+# Target rules for targets named int_scatter_version
+
+# Build rule for target.
+int_scatter_version: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 int_scatter_version
+.PHONY : int_scatter_version
+
+# fast build rule for target.
+int_scatter_version/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/int_scatter_version.dir/build.make CMakeFiles/int_scatter_version.dir/build
+.PHONY : int_scatter_version/fast
+
+#=============================================================================
+# Target rules for targets named dp_scatter_version
+
+# Build rule for target.
+dp_scatter_version: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dp_scatter_version
+.PHONY : dp_scatter_version
+
+# fast build rule for target.
+dp_scatter_version/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dp_scatter_version.dir/build.make CMakeFiles/dp_scatter_version.dir/build
+.PHONY : dp_scatter_version/fast
+
+src/calcolo_integrale/best_version.o: src/calcolo_integrale/best_version.c.o
+.PHONY : src/calcolo_integrale/best_version.o
+
+# target to build an object file
+src/calcolo_integrale/best_version.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/best_version.dir/build.make CMakeFiles/best_version.dir/src/calcolo_integrale/best_version.c.o
+.PHONY : src/calcolo_integrale/best_version.c.o
+
+src/calcolo_integrale/best_version.i: src/calcolo_integrale/best_version.c.i
+.PHONY : src/calcolo_integrale/best_version.i
+
+# target to preprocess a source file
+src/calcolo_integrale/best_version.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/best_version.dir/build.make CMakeFiles/best_version.dir/src/calcolo_integrale/best_version.c.i
+.PHONY : src/calcolo_integrale/best_version.c.i
+
+src/calcolo_integrale/best_version.s: src/calcolo_integrale/best_version.c.s
+.PHONY : src/calcolo_integrale/best_version.s
+
+# target to generate assembly for a file
+src/calcolo_integrale/best_version.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/best_version.dir/build.make CMakeFiles/best_version.dir/src/calcolo_integrale/best_version.c.s
+.PHONY : src/calcolo_integrale/best_version.c.s
+
+src/calcolo_integrale/broadcast_version.o: src/calcolo_integrale/broadcast_version.c.o
+.PHONY : src/calcolo_integrale/broadcast_version.o
+
+# target to build an object file
+src/calcolo_integrale/broadcast_version.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/int_broadcast_version.dir/build.make CMakeFiles/int_broadcast_version.dir/src/calcolo_integrale/broadcast_version.c.o
+.PHONY : src/calcolo_integrale/broadcast_version.c.o
+
+src/calcolo_integrale/broadcast_version.i: src/calcolo_integrale/broadcast_version.c.i
+.PHONY : src/calcolo_integrale/broadcast_version.i
+
+# target to preprocess a source file
+src/calcolo_integrale/broadcast_version.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/int_broadcast_version.dir/build.make CMakeFiles/int_broadcast_version.dir/src/calcolo_integrale/broadcast_version.c.i
+.PHONY : src/calcolo_integrale/broadcast_version.c.i
+
+src/calcolo_integrale/broadcast_version.s: src/calcolo_integrale/broadcast_version.c.s
+.PHONY : src/calcolo_integrale/broadcast_version.s
+
+# target to generate assembly for a file
+src/calcolo_integrale/broadcast_version.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/int_broadcast_version.dir/build.make CMakeFiles/int_broadcast_version.dir/src/calcolo_integrale/broadcast_version.c.s
+.PHONY : src/calcolo_integrale/broadcast_version.c.s
+
+src/calcolo_integrale/derived_version.o: src/calcolo_integrale/derived_version.c.o
+.PHONY : src/calcolo_integrale/derived_version.o
+
+# target to build an object file
+src/calcolo_integrale/derived_version.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/int_derived_version.dir/build.make CMakeFiles/int_derived_version.dir/src/calcolo_integrale/derived_version.c.o
+.PHONY : src/calcolo_integrale/derived_version.c.o
+
+src/calcolo_integrale/derived_version.i: src/calcolo_integrale/derived_version.c.i
+.PHONY : src/calcolo_integrale/derived_version.i
+
+# target to preprocess a source file
+src/calcolo_integrale/derived_version.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/int_derived_version.dir/build.make CMakeFiles/int_derived_version.dir/src/calcolo_integrale/derived_version.c.i
+.PHONY : src/calcolo_integrale/derived_version.c.i
+
+src/calcolo_integrale/derived_version.s: src/calcolo_integrale/derived_version.c.s
+.PHONY : src/calcolo_integrale/derived_version.s
+
+# target to generate assembly for a file
+src/calcolo_integrale/derived_version.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/int_derived_version.dir/build.make CMakeFiles/int_derived_version.dir/src/calcolo_integrale/derived_version.c.s
+.PHONY : src/calcolo_integrale/derived_version.c.s
+
 src/calcolo_integrale/main.o: src/calcolo_integrale/main.c.o
 .PHONY : src/calcolo_integrale/main.o
 
@@ -215,6 +352,54 @@ src/calcolo_integrale/root_version.s: src/calcolo_integrale/root_version.c.s
 src/calcolo_integrale/root_version.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/calcolo_integrale_root.dir/build.make CMakeFiles/calcolo_integrale_root.dir/src/calcolo_integrale/root_version.c.s
 .PHONY : src/calcolo_integrale/root_version.c.s
+
+src/calcolo_integrale/scatter_version.o: src/calcolo_integrale/scatter_version.c.o
+.PHONY : src/calcolo_integrale/scatter_version.o
+
+# target to build an object file
+src/calcolo_integrale/scatter_version.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/int_scatter_version.dir/build.make CMakeFiles/int_scatter_version.dir/src/calcolo_integrale/scatter_version.c.o
+.PHONY : src/calcolo_integrale/scatter_version.c.o
+
+src/calcolo_integrale/scatter_version.i: src/calcolo_integrale/scatter_version.c.i
+.PHONY : src/calcolo_integrale/scatter_version.i
+
+# target to preprocess a source file
+src/calcolo_integrale/scatter_version.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/int_scatter_version.dir/build.make CMakeFiles/int_scatter_version.dir/src/calcolo_integrale/scatter_version.c.i
+.PHONY : src/calcolo_integrale/scatter_version.c.i
+
+src/calcolo_integrale/scatter_version.s: src/calcolo_integrale/scatter_version.c.s
+.PHONY : src/calcolo_integrale/scatter_version.s
+
+# target to generate assembly for a file
+src/calcolo_integrale/scatter_version.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/int_scatter_version.dir/build.make CMakeFiles/int_scatter_version.dir/src/calcolo_integrale/scatter_version.c.s
+.PHONY : src/calcolo_integrale/scatter_version.c.s
+
+src/dot_product/scatter_version.o: src/dot_product/scatter_version.c.o
+.PHONY : src/dot_product/scatter_version.o
+
+# target to build an object file
+src/dot_product/scatter_version.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dp_scatter_version.dir/build.make CMakeFiles/dp_scatter_version.dir/src/dot_product/scatter_version.c.o
+.PHONY : src/dot_product/scatter_version.c.o
+
+src/dot_product/scatter_version.i: src/dot_product/scatter_version.c.i
+.PHONY : src/dot_product/scatter_version.i
+
+# target to preprocess a source file
+src/dot_product/scatter_version.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dp_scatter_version.dir/build.make CMakeFiles/dp_scatter_version.dir/src/dot_product/scatter_version.c.i
+.PHONY : src/dot_product/scatter_version.c.i
+
+src/dot_product/scatter_version.s: src/dot_product/scatter_version.c.s
+.PHONY : src/dot_product/scatter_version.s
+
+# target to generate assembly for a file
+src/dot_product/scatter_version.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dp_scatter_version.dir/build.make CMakeFiles/dp_scatter_version.dir/src/dot_product/scatter_version.c.s
+.PHONY : src/dot_product/scatter_version.c.s
 
 src/helloworld/hello.o: src/helloworld/hello.c.o
 .PHONY : src/helloworld/hello.o
@@ -272,16 +457,36 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... best_version"
 	@echo "... calcolo_integrale"
 	@echo "... calcolo_integrale_root"
+	@echo "... dp_scatter_version"
 	@echo "... hello"
+	@echo "... int_broadcast_version"
+	@echo "... int_derived_version"
+	@echo "... int_scatter_version"
 	@echo "... pingpong"
+	@echo "... src/calcolo_integrale/best_version.o"
+	@echo "... src/calcolo_integrale/best_version.i"
+	@echo "... src/calcolo_integrale/best_version.s"
+	@echo "... src/calcolo_integrale/broadcast_version.o"
+	@echo "... src/calcolo_integrale/broadcast_version.i"
+	@echo "... src/calcolo_integrale/broadcast_version.s"
+	@echo "... src/calcolo_integrale/derived_version.o"
+	@echo "... src/calcolo_integrale/derived_version.i"
+	@echo "... src/calcolo_integrale/derived_version.s"
 	@echo "... src/calcolo_integrale/main.o"
 	@echo "... src/calcolo_integrale/main.i"
 	@echo "... src/calcolo_integrale/main.s"
 	@echo "... src/calcolo_integrale/root_version.o"
 	@echo "... src/calcolo_integrale/root_version.i"
 	@echo "... src/calcolo_integrale/root_version.s"
+	@echo "... src/calcolo_integrale/scatter_version.o"
+	@echo "... src/calcolo_integrale/scatter_version.i"
+	@echo "... src/calcolo_integrale/scatter_version.s"
+	@echo "... src/dot_product/scatter_version.o"
+	@echo "... src/dot_product/scatter_version.i"
+	@echo "... src/dot_product/scatter_version.s"
 	@echo "... src/helloworld/hello.o"
 	@echo "... src/helloworld/hello.i"
 	@echo "... src/helloworld/hello.s"

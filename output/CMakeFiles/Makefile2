@@ -67,6 +67,11 @@ all: CMakeFiles/hello.dir/all
 all: CMakeFiles/pingpong.dir/all
 all: CMakeFiles/calcolo_integrale.dir/all
 all: CMakeFiles/calcolo_integrale_root.dir/all
+all: CMakeFiles/int_broadcast_version.dir/all
+all: CMakeFiles/int_derived_version.dir/all
+all: CMakeFiles/best_version.dir/all
+all: CMakeFiles/int_scatter_version.dir/all
+all: CMakeFiles/dp_scatter_version.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
@@ -74,6 +79,11 @@ codegen: CMakeFiles/hello.dir/codegen
 codegen: CMakeFiles/pingpong.dir/codegen
 codegen: CMakeFiles/calcolo_integrale.dir/codegen
 codegen: CMakeFiles/calcolo_integrale_root.dir/codegen
+codegen: CMakeFiles/int_broadcast_version.dir/codegen
+codegen: CMakeFiles/int_derived_version.dir/codegen
+codegen: CMakeFiles/best_version.dir/codegen
+codegen: CMakeFiles/int_scatter_version.dir/codegen
+codegen: CMakeFiles/dp_scatter_version.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -85,6 +95,11 @@ clean: CMakeFiles/hello.dir/clean
 clean: CMakeFiles/pingpong.dir/clean
 clean: CMakeFiles/calcolo_integrale.dir/clean
 clean: CMakeFiles/calcolo_integrale_root.dir/clean
+clean: CMakeFiles/int_broadcast_version.dir/clean
+clean: CMakeFiles/int_derived_version.dir/clean
+clean: CMakeFiles/best_version.dir/clean
+clean: CMakeFiles/int_scatter_version.dir/clean
+clean: CMakeFiles/dp_scatter_version.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -94,7 +109,7 @@ clean: CMakeFiles/calcolo_integrale_root.dir/clean
 CMakeFiles/hello.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles --progress-num=5,6 "Built target hello"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles --progress-num=9,10 "Built target hello"
 .PHONY : CMakeFiles/hello.dir/all
 
 # Build rule for subdir invocation for target.
@@ -111,7 +126,7 @@ hello: CMakeFiles/hello.dir/rule
 # codegen rule for target.
 CMakeFiles/hello.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles --progress-num=5,6 "Finished codegen for target hello"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles --progress-num=9,10 "Finished codegen for target hello"
 .PHONY : CMakeFiles/hello.dir/codegen
 
 # clean rule for target.
@@ -126,7 +141,7 @@ CMakeFiles/hello.dir/clean:
 CMakeFiles/pingpong.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pingpong.dir/build.make CMakeFiles/pingpong.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pingpong.dir/build.make CMakeFiles/pingpong.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles --progress-num=7,8 "Built target pingpong"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles --progress-num=17,18 "Built target pingpong"
 .PHONY : CMakeFiles/pingpong.dir/all
 
 # Build rule for subdir invocation for target.
@@ -143,7 +158,7 @@ pingpong: CMakeFiles/pingpong.dir/rule
 # codegen rule for target.
 CMakeFiles/pingpong.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pingpong.dir/build.make CMakeFiles/pingpong.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles --progress-num=7,8 "Finished codegen for target pingpong"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles --progress-num=17,18 "Finished codegen for target pingpong"
 .PHONY : CMakeFiles/pingpong.dir/codegen
 
 # clean rule for target.
@@ -158,7 +173,7 @@ CMakeFiles/pingpong.dir/clean:
 CMakeFiles/calcolo_integrale.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/calcolo_integrale.dir/build.make CMakeFiles/calcolo_integrale.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/calcolo_integrale.dir/build.make CMakeFiles/calcolo_integrale.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles --progress-num=1,2 "Built target calcolo_integrale"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles --progress-num=3,4 "Built target calcolo_integrale"
 .PHONY : CMakeFiles/calcolo_integrale.dir/all
 
 # Build rule for subdir invocation for target.
@@ -175,7 +190,7 @@ calcolo_integrale: CMakeFiles/calcolo_integrale.dir/rule
 # codegen rule for target.
 CMakeFiles/calcolo_integrale.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/calcolo_integrale.dir/build.make CMakeFiles/calcolo_integrale.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles --progress-num=1,2 "Finished codegen for target calcolo_integrale"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles --progress-num=3,4 "Finished codegen for target calcolo_integrale"
 .PHONY : CMakeFiles/calcolo_integrale.dir/codegen
 
 # clean rule for target.
@@ -190,7 +205,7 @@ CMakeFiles/calcolo_integrale.dir/clean:
 CMakeFiles/calcolo_integrale_root.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/calcolo_integrale_root.dir/build.make CMakeFiles/calcolo_integrale_root.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/calcolo_integrale_root.dir/build.make CMakeFiles/calcolo_integrale_root.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles --progress-num=3,4 "Built target calcolo_integrale_root"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles --progress-num=5,6 "Built target calcolo_integrale_root"
 .PHONY : CMakeFiles/calcolo_integrale_root.dir/all
 
 # Build rule for subdir invocation for target.
@@ -207,13 +222,173 @@ calcolo_integrale_root: CMakeFiles/calcolo_integrale_root.dir/rule
 # codegen rule for target.
 CMakeFiles/calcolo_integrale_root.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/calcolo_integrale_root.dir/build.make CMakeFiles/calcolo_integrale_root.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles --progress-num=3,4 "Finished codegen for target calcolo_integrale_root"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles --progress-num=5,6 "Finished codegen for target calcolo_integrale_root"
 .PHONY : CMakeFiles/calcolo_integrale_root.dir/codegen
 
 # clean rule for target.
 CMakeFiles/calcolo_integrale_root.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/calcolo_integrale_root.dir/build.make CMakeFiles/calcolo_integrale_root.dir/clean
 .PHONY : CMakeFiles/calcolo_integrale_root.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/int_broadcast_version.dir
+
+# All Build rule for target.
+CMakeFiles/int_broadcast_version.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/int_broadcast_version.dir/build.make CMakeFiles/int_broadcast_version.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/int_broadcast_version.dir/build.make CMakeFiles/int_broadcast_version.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles --progress-num=11,12 "Built target int_broadcast_version"
+.PHONY : CMakeFiles/int_broadcast_version.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/int_broadcast_version.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/int_broadcast_version.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles 0
+.PHONY : CMakeFiles/int_broadcast_version.dir/rule
+
+# Convenience name for target.
+int_broadcast_version: CMakeFiles/int_broadcast_version.dir/rule
+.PHONY : int_broadcast_version
+
+# codegen rule for target.
+CMakeFiles/int_broadcast_version.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/int_broadcast_version.dir/build.make CMakeFiles/int_broadcast_version.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles --progress-num=11,12 "Finished codegen for target int_broadcast_version"
+.PHONY : CMakeFiles/int_broadcast_version.dir/codegen
+
+# clean rule for target.
+CMakeFiles/int_broadcast_version.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/int_broadcast_version.dir/build.make CMakeFiles/int_broadcast_version.dir/clean
+.PHONY : CMakeFiles/int_broadcast_version.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/int_derived_version.dir
+
+# All Build rule for target.
+CMakeFiles/int_derived_version.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/int_derived_version.dir/build.make CMakeFiles/int_derived_version.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/int_derived_version.dir/build.make CMakeFiles/int_derived_version.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles --progress-num=13,14 "Built target int_derived_version"
+.PHONY : CMakeFiles/int_derived_version.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/int_derived_version.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/int_derived_version.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles 0
+.PHONY : CMakeFiles/int_derived_version.dir/rule
+
+# Convenience name for target.
+int_derived_version: CMakeFiles/int_derived_version.dir/rule
+.PHONY : int_derived_version
+
+# codegen rule for target.
+CMakeFiles/int_derived_version.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/int_derived_version.dir/build.make CMakeFiles/int_derived_version.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles --progress-num=13,14 "Finished codegen for target int_derived_version"
+.PHONY : CMakeFiles/int_derived_version.dir/codegen
+
+# clean rule for target.
+CMakeFiles/int_derived_version.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/int_derived_version.dir/build.make CMakeFiles/int_derived_version.dir/clean
+.PHONY : CMakeFiles/int_derived_version.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/best_version.dir
+
+# All Build rule for target.
+CMakeFiles/best_version.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/best_version.dir/build.make CMakeFiles/best_version.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/best_version.dir/build.make CMakeFiles/best_version.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles --progress-num=1,2 "Built target best_version"
+.PHONY : CMakeFiles/best_version.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/best_version.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/best_version.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles 0
+.PHONY : CMakeFiles/best_version.dir/rule
+
+# Convenience name for target.
+best_version: CMakeFiles/best_version.dir/rule
+.PHONY : best_version
+
+# codegen rule for target.
+CMakeFiles/best_version.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/best_version.dir/build.make CMakeFiles/best_version.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles --progress-num=1,2 "Finished codegen for target best_version"
+.PHONY : CMakeFiles/best_version.dir/codegen
+
+# clean rule for target.
+CMakeFiles/best_version.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/best_version.dir/build.make CMakeFiles/best_version.dir/clean
+.PHONY : CMakeFiles/best_version.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/int_scatter_version.dir
+
+# All Build rule for target.
+CMakeFiles/int_scatter_version.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/int_scatter_version.dir/build.make CMakeFiles/int_scatter_version.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/int_scatter_version.dir/build.make CMakeFiles/int_scatter_version.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles --progress-num=15,16 "Built target int_scatter_version"
+.PHONY : CMakeFiles/int_scatter_version.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/int_scatter_version.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/int_scatter_version.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles 0
+.PHONY : CMakeFiles/int_scatter_version.dir/rule
+
+# Convenience name for target.
+int_scatter_version: CMakeFiles/int_scatter_version.dir/rule
+.PHONY : int_scatter_version
+
+# codegen rule for target.
+CMakeFiles/int_scatter_version.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/int_scatter_version.dir/build.make CMakeFiles/int_scatter_version.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles --progress-num=15,16 "Finished codegen for target int_scatter_version"
+.PHONY : CMakeFiles/int_scatter_version.dir/codegen
+
+# clean rule for target.
+CMakeFiles/int_scatter_version.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/int_scatter_version.dir/build.make CMakeFiles/int_scatter_version.dir/clean
+.PHONY : CMakeFiles/int_scatter_version.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/dp_scatter_version.dir
+
+# All Build rule for target.
+CMakeFiles/dp_scatter_version.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dp_scatter_version.dir/build.make CMakeFiles/dp_scatter_version.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dp_scatter_version.dir/build.make CMakeFiles/dp_scatter_version.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles --progress-num=7,8 "Built target dp_scatter_version"
+.PHONY : CMakeFiles/dp_scatter_version.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/dp_scatter_version.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/dp_scatter_version.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles 0
+.PHONY : CMakeFiles/dp_scatter_version.dir/rule
+
+# Convenience name for target.
+dp_scatter_version: CMakeFiles/dp_scatter_version.dir/rule
+.PHONY : dp_scatter_version
+
+# codegen rule for target.
+CMakeFiles/dp_scatter_version.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dp_scatter_version.dir/build.make CMakeFiles/dp_scatter_version.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles --progress-num=7,8 "Finished codegen for target dp_scatter_version"
+.PHONY : CMakeFiles/dp_scatter_version.dir/codegen
+
+# clean rule for target.
+CMakeFiles/dp_scatter_version.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dp_scatter_version.dir/build.make CMakeFiles/dp_scatter_version.dir/clean
+.PHONY : CMakeFiles/dp_scatter_version.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

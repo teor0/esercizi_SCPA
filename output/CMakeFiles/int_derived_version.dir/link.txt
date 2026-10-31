@@ -1,0 +1,1 @@
+/usr/bin/cc -Wl,--dependency-file=CMakeFiles/int_derived_version.dir/link.d CMakeFiles/int_derived_version.dir/src/calcolo_integrale/derived_version.c.o -o int_derived_version  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so

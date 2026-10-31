@@ -1,0 +1,1 @@
+/usr/bin/cc -Wl,--dependency-file=CMakeFiles/scatter_version.dir/link.d CMakeFiles/scatter_version.dir/src/calcolo_integrale/scatter_version.c.o -o scatter_version  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
