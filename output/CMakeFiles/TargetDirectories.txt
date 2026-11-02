@@ -1,4 +1,10 @@
 /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/hello.dir
+/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/simple.dir
+/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/ordered.dir
+/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/msg_exchange.dir
+/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/broadcast.dir
+/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/somma.dir
+/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/non_blocking.dir
 /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/pingpong.dir
 /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/calcolo_integrale.dir
 /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/calcolo_integrale_root.dir
@@ -7,5 +13,9 @@
 /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/best_version.dir
 /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/int_scatter_version.dir
 /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/dp_scatter_version.dir
+/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/cart_example.dir
+/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/dt_version.dir
+/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/book_version.dir
+/home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/ct_version.dir
 /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/edit_cache.dir
 /home/teor/Desktop/Magistrale/SCPA/codice/esercizi/output/CMakeFiles/rebuild_cache.dir

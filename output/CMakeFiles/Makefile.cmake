@@ -52,6 +52,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/hello.dir/DependInfo.cmake"
+  "CMakeFiles/simple.dir/DependInfo.cmake"
+  "CMakeFiles/ordered.dir/DependInfo.cmake"
+  "CMakeFiles/msg_exchange.dir/DependInfo.cmake"
+  "CMakeFiles/broadcast.dir/DependInfo.cmake"
+  "CMakeFiles/somma.dir/DependInfo.cmake"
+  "CMakeFiles/non_blocking.dir/DependInfo.cmake"
   "CMakeFiles/pingpong.dir/DependInfo.cmake"
   "CMakeFiles/calcolo_integrale.dir/DependInfo.cmake"
   "CMakeFiles/calcolo_integrale_root.dir/DependInfo.cmake"
@@ -60,4 +66,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/best_version.dir/DependInfo.cmake"
   "CMakeFiles/int_scatter_version.dir/DependInfo.cmake"
   "CMakeFiles/dp_scatter_version.dir/DependInfo.cmake"
+  "CMakeFiles/cart_example.dir/DependInfo.cmake"
+  "CMakeFiles/dt_version.dir/DependInfo.cmake"
+  "CMakeFiles/book_version.dir/DependInfo.cmake"
+  "CMakeFiles/ct_version.dir/DependInfo.cmake"
   )

@@ -130,6 +130,84 @@ hello/fast:
 .PHONY : hello/fast
 
 #=============================================================================
+# Target rules for targets named simple
+
+# Build rule for target.
+simple: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple
+.PHONY : simple
+
+# fast build rule for target.
+simple/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple.dir/build.make CMakeFiles/simple.dir/build
+.PHONY : simple/fast
+
+#=============================================================================
+# Target rules for targets named ordered
+
+# Build rule for target.
+ordered: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ordered
+.PHONY : ordered
+
+# fast build rule for target.
+ordered/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ordered.dir/build.make CMakeFiles/ordered.dir/build
+.PHONY : ordered/fast
+
+#=============================================================================
+# Target rules for targets named msg_exchange
+
+# Build rule for target.
+msg_exchange: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 msg_exchange
+.PHONY : msg_exchange
+
+# fast build rule for target.
+msg_exchange/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/msg_exchange.dir/build.make CMakeFiles/msg_exchange.dir/build
+.PHONY : msg_exchange/fast
+
+#=============================================================================
+# Target rules for targets named broadcast
+
+# Build rule for target.
+broadcast: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 broadcast
+.PHONY : broadcast
+
+# fast build rule for target.
+broadcast/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/broadcast.dir/build.make CMakeFiles/broadcast.dir/build
+.PHONY : broadcast/fast
+
+#=============================================================================
+# Target rules for targets named somma
+
+# Build rule for target.
+somma: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 somma
+.PHONY : somma
+
+# fast build rule for target.
+somma/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/somma.dir/build.make CMakeFiles/somma.dir/build
+.PHONY : somma/fast
+
+#=============================================================================
+# Target rules for targets named non_blocking
+
+# Build rule for target.
+non_blocking: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 non_blocking
+.PHONY : non_blocking
+
+# fast build rule for target.
+non_blocking/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/non_blocking.dir/build.make CMakeFiles/non_blocking.dir/build
+.PHONY : non_blocking/fast
+
+#=============================================================================
 # Target rules for targets named pingpong
 
 # Build rule for target.
@@ -232,6 +310,58 @@ dp_scatter_version: cmake_check_build_system
 dp_scatter_version/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dp_scatter_version.dir/build.make CMakeFiles/dp_scatter_version.dir/build
 .PHONY : dp_scatter_version/fast
+
+#=============================================================================
+# Target rules for targets named cart_example
+
+# Build rule for target.
+cart_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cart_example
+.PHONY : cart_example
+
+# fast build rule for target.
+cart_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cart_example.dir/build.make CMakeFiles/cart_example.dir/build
+.PHONY : cart_example/fast
+
+#=============================================================================
+# Target rules for targets named dt_version
+
+# Build rule for target.
+dt_version: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dt_version
+.PHONY : dt_version
+
+# fast build rule for target.
+dt_version/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dt_version.dir/build.make CMakeFiles/dt_version.dir/build
+.PHONY : dt_version/fast
+
+#=============================================================================
+# Target rules for targets named book_version
+
+# Build rule for target.
+book_version: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 book_version
+.PHONY : book_version
+
+# fast build rule for target.
+book_version/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/book_version.dir/build.make CMakeFiles/book_version.dir/build
+.PHONY : book_version/fast
+
+#=============================================================================
+# Target rules for targets named ct_version
+
+# Build rule for target.
+ct_version: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ct_version
+.PHONY : ct_version
+
+# fast build rule for target.
+ct_version/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ct_version.dir/build.make CMakeFiles/ct_version.dir/build
+.PHONY : ct_version/fast
 
 src/calcolo_integrale/best_version.o: src/calcolo_integrale/best_version.c.o
 .PHONY : src/calcolo_integrale/best_version.o
@@ -377,6 +507,30 @@ src/calcolo_integrale/scatter_version.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/int_scatter_version.dir/build.make CMakeFiles/int_scatter_version.dir/src/calcolo_integrale/scatter_version.c.s
 .PHONY : src/calcolo_integrale/scatter_version.c.s
 
+src/cart_topology/cart_main.o: src/cart_topology/cart_main.c.o
+.PHONY : src/cart_topology/cart_main.o
+
+# target to build an object file
+src/cart_topology/cart_main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cart_example.dir/build.make CMakeFiles/cart_example.dir/src/cart_topology/cart_main.c.o
+.PHONY : src/cart_topology/cart_main.c.o
+
+src/cart_topology/cart_main.i: src/cart_topology/cart_main.c.i
+.PHONY : src/cart_topology/cart_main.i
+
+# target to preprocess a source file
+src/cart_topology/cart_main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cart_example.dir/build.make CMakeFiles/cart_example.dir/src/cart_topology/cart_main.c.i
+.PHONY : src/cart_topology/cart_main.c.i
+
+src/cart_topology/cart_main.s: src/cart_topology/cart_main.c.s
+.PHONY : src/cart_topology/cart_main.s
+
+# target to generate assembly for a file
+src/cart_topology/cart_main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cart_example.dir/build.make CMakeFiles/cart_example.dir/src/cart_topology/cart_main.c.s
+.PHONY : src/cart_topology/cart_main.c.s
+
 src/dot_product/scatter_version.o: src/dot_product/scatter_version.c.o
 .PHONY : src/dot_product/scatter_version.o
 
@@ -425,6 +579,198 @@ src/helloworld/hello.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/src/helloworld/hello.c.s
 .PHONY : src/helloworld/hello.c.s
 
+src/helloworld/ordered.o: src/helloworld/ordered.c.o
+.PHONY : src/helloworld/ordered.o
+
+# target to build an object file
+src/helloworld/ordered.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ordered.dir/build.make CMakeFiles/ordered.dir/src/helloworld/ordered.c.o
+.PHONY : src/helloworld/ordered.c.o
+
+src/helloworld/ordered.i: src/helloworld/ordered.c.i
+.PHONY : src/helloworld/ordered.i
+
+# target to preprocess a source file
+src/helloworld/ordered.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ordered.dir/build.make CMakeFiles/ordered.dir/src/helloworld/ordered.c.i
+.PHONY : src/helloworld/ordered.c.i
+
+src/helloworld/ordered.s: src/helloworld/ordered.c.s
+.PHONY : src/helloworld/ordered.s
+
+# target to generate assembly for a file
+src/helloworld/ordered.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ordered.dir/build.make CMakeFiles/ordered.dir/src/helloworld/ordered.c.s
+.PHONY : src/helloworld/ordered.c.s
+
+src/helloworld/simple.o: src/helloworld/simple.c.o
+.PHONY : src/helloworld/simple.o
+
+# target to build an object file
+src/helloworld/simple.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple.dir/build.make CMakeFiles/simple.dir/src/helloworld/simple.c.o
+.PHONY : src/helloworld/simple.c.o
+
+src/helloworld/simple.i: src/helloworld/simple.c.i
+.PHONY : src/helloworld/simple.i
+
+# target to preprocess a source file
+src/helloworld/simple.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple.dir/build.make CMakeFiles/simple.dir/src/helloworld/simple.c.i
+.PHONY : src/helloworld/simple.c.i
+
+src/helloworld/simple.s: src/helloworld/simple.c.s
+.PHONY : src/helloworld/simple.s
+
+# target to generate assembly for a file
+src/helloworld/simple.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple.dir/build.make CMakeFiles/simple.dir/src/helloworld/simple.c.s
+.PHONY : src/helloworld/simple.c.s
+
+src/msg_exchange/broadcast.o: src/msg_exchange/broadcast.c.o
+.PHONY : src/msg_exchange/broadcast.o
+
+# target to build an object file
+src/msg_exchange/broadcast.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/broadcast.dir/build.make CMakeFiles/broadcast.dir/src/msg_exchange/broadcast.c.o
+.PHONY : src/msg_exchange/broadcast.c.o
+
+src/msg_exchange/broadcast.i: src/msg_exchange/broadcast.c.i
+.PHONY : src/msg_exchange/broadcast.i
+
+# target to preprocess a source file
+src/msg_exchange/broadcast.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/broadcast.dir/build.make CMakeFiles/broadcast.dir/src/msg_exchange/broadcast.c.i
+.PHONY : src/msg_exchange/broadcast.c.i
+
+src/msg_exchange/broadcast.s: src/msg_exchange/broadcast.c.s
+.PHONY : src/msg_exchange/broadcast.s
+
+# target to generate assembly for a file
+src/msg_exchange/broadcast.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/broadcast.dir/build.make CMakeFiles/broadcast.dir/src/msg_exchange/broadcast.c.s
+.PHONY : src/msg_exchange/broadcast.c.s
+
+src/msg_exchange/main.o: src/msg_exchange/main.c.o
+.PHONY : src/msg_exchange/main.o
+
+# target to build an object file
+src/msg_exchange/main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/msg_exchange.dir/build.make CMakeFiles/msg_exchange.dir/src/msg_exchange/main.c.o
+.PHONY : src/msg_exchange/main.c.o
+
+src/msg_exchange/main.i: src/msg_exchange/main.c.i
+.PHONY : src/msg_exchange/main.i
+
+# target to preprocess a source file
+src/msg_exchange/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/msg_exchange.dir/build.make CMakeFiles/msg_exchange.dir/src/msg_exchange/main.c.i
+.PHONY : src/msg_exchange/main.c.i
+
+src/msg_exchange/main.s: src/msg_exchange/main.c.s
+.PHONY : src/msg_exchange/main.s
+
+# target to generate assembly for a file
+src/msg_exchange/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/msg_exchange.dir/build.make CMakeFiles/msg_exchange.dir/src/msg_exchange/main.c.s
+.PHONY : src/msg_exchange/main.c.s
+
+src/mv_product/book_version.o: src/mv_product/book_version.c.o
+.PHONY : src/mv_product/book_version.o
+
+# target to build an object file
+src/mv_product/book_version.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/book_version.dir/build.make CMakeFiles/book_version.dir/src/mv_product/book_version.c.o
+.PHONY : src/mv_product/book_version.c.o
+
+src/mv_product/book_version.i: src/mv_product/book_version.c.i
+.PHONY : src/mv_product/book_version.i
+
+# target to preprocess a source file
+src/mv_product/book_version.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/book_version.dir/build.make CMakeFiles/book_version.dir/src/mv_product/book_version.c.i
+.PHONY : src/mv_product/book_version.c.i
+
+src/mv_product/book_version.s: src/mv_product/book_version.c.s
+.PHONY : src/mv_product/book_version.s
+
+# target to generate assembly for a file
+src/mv_product/book_version.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/book_version.dir/build.make CMakeFiles/book_version.dir/src/mv_product/book_version.c.s
+.PHONY : src/mv_product/book_version.c.s
+
+src/mv_product/ct_version.o: src/mv_product/ct_version.c.o
+.PHONY : src/mv_product/ct_version.o
+
+# target to build an object file
+src/mv_product/ct_version.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ct_version.dir/build.make CMakeFiles/ct_version.dir/src/mv_product/ct_version.c.o
+.PHONY : src/mv_product/ct_version.c.o
+
+src/mv_product/ct_version.i: src/mv_product/ct_version.c.i
+.PHONY : src/mv_product/ct_version.i
+
+# target to preprocess a source file
+src/mv_product/ct_version.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ct_version.dir/build.make CMakeFiles/ct_version.dir/src/mv_product/ct_version.c.i
+.PHONY : src/mv_product/ct_version.c.i
+
+src/mv_product/ct_version.s: src/mv_product/ct_version.c.s
+.PHONY : src/mv_product/ct_version.s
+
+# target to generate assembly for a file
+src/mv_product/ct_version.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ct_version.dir/build.make CMakeFiles/ct_version.dir/src/mv_product/ct_version.c.s
+.PHONY : src/mv_product/ct_version.c.s
+
+src/mv_product/dt_version.o: src/mv_product/dt_version.c.o
+.PHONY : src/mv_product/dt_version.o
+
+# target to build an object file
+src/mv_product/dt_version.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dt_version.dir/build.make CMakeFiles/dt_version.dir/src/mv_product/dt_version.c.o
+.PHONY : src/mv_product/dt_version.c.o
+
+src/mv_product/dt_version.i: src/mv_product/dt_version.c.i
+.PHONY : src/mv_product/dt_version.i
+
+# target to preprocess a source file
+src/mv_product/dt_version.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dt_version.dir/build.make CMakeFiles/dt_version.dir/src/mv_product/dt_version.c.i
+.PHONY : src/mv_product/dt_version.c.i
+
+src/mv_product/dt_version.s: src/mv_product/dt_version.c.s
+.PHONY : src/mv_product/dt_version.s
+
+# target to generate assembly for a file
+src/mv_product/dt_version.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dt_version.dir/build.make CMakeFiles/dt_version.dir/src/mv_product/dt_version.c.s
+.PHONY : src/mv_product/dt_version.c.s
+
+src/non_blocking/main.o: src/non_blocking/main.c.o
+.PHONY : src/non_blocking/main.o
+
+# target to build an object file
+src/non_blocking/main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/non_blocking.dir/build.make CMakeFiles/non_blocking.dir/src/non_blocking/main.c.o
+.PHONY : src/non_blocking/main.c.o
+
+src/non_blocking/main.i: src/non_blocking/main.c.i
+.PHONY : src/non_blocking/main.i
+
+# target to preprocess a source file
+src/non_blocking/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/non_blocking.dir/build.make CMakeFiles/non_blocking.dir/src/non_blocking/main.c.i
+.PHONY : src/non_blocking/main.c.i
+
+src/non_blocking/main.s: src/non_blocking/main.c.s
+.PHONY : src/non_blocking/main.s
+
+# target to generate assembly for a file
+src/non_blocking/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/non_blocking.dir/build.make CMakeFiles/non_blocking.dir/src/non_blocking/main.c.s
+.PHONY : src/non_blocking/main.c.s
+
 src/pingpong/main.o: src/pingpong/main.c.o
 .PHONY : src/pingpong/main.o
 
@@ -449,6 +795,30 @@ src/pingpong/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pingpong.dir/build.make CMakeFiles/pingpong.dir/src/pingpong/main.c.s
 .PHONY : src/pingpong/main.c.s
 
+src/somma/main.o: src/somma/main.c.o
+.PHONY : src/somma/main.o
+
+# target to build an object file
+src/somma/main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/somma.dir/build.make CMakeFiles/somma.dir/src/somma/main.c.o
+.PHONY : src/somma/main.c.o
+
+src/somma/main.i: src/somma/main.c.i
+.PHONY : src/somma/main.i
+
+# target to preprocess a source file
+src/somma/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/somma.dir/build.make CMakeFiles/somma.dir/src/somma/main.c.i
+.PHONY : src/somma/main.c.i
+
+src/somma/main.s: src/somma/main.c.s
+.PHONY : src/somma/main.s
+
+# target to generate assembly for a file
+src/somma/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/somma.dir/build.make CMakeFiles/somma.dir/src/somma/main.c.s
+.PHONY : src/somma/main.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -458,14 +828,24 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... best_version"
+	@echo "... book_version"
+	@echo "... broadcast"
 	@echo "... calcolo_integrale"
 	@echo "... calcolo_integrale_root"
+	@echo "... cart_example"
+	@echo "... ct_version"
 	@echo "... dp_scatter_version"
+	@echo "... dt_version"
 	@echo "... hello"
 	@echo "... int_broadcast_version"
 	@echo "... int_derived_version"
 	@echo "... int_scatter_version"
+	@echo "... msg_exchange"
+	@echo "... non_blocking"
+	@echo "... ordered"
 	@echo "... pingpong"
+	@echo "... simple"
+	@echo "... somma"
 	@echo "... src/calcolo_integrale/best_version.o"
 	@echo "... src/calcolo_integrale/best_version.i"
 	@echo "... src/calcolo_integrale/best_version.s"
@@ -484,15 +864,45 @@ help:
 	@echo "... src/calcolo_integrale/scatter_version.o"
 	@echo "... src/calcolo_integrale/scatter_version.i"
 	@echo "... src/calcolo_integrale/scatter_version.s"
+	@echo "... src/cart_topology/cart_main.o"
+	@echo "... src/cart_topology/cart_main.i"
+	@echo "... src/cart_topology/cart_main.s"
 	@echo "... src/dot_product/scatter_version.o"
 	@echo "... src/dot_product/scatter_version.i"
 	@echo "... src/dot_product/scatter_version.s"
 	@echo "... src/helloworld/hello.o"
 	@echo "... src/helloworld/hello.i"
 	@echo "... src/helloworld/hello.s"
+	@echo "... src/helloworld/ordered.o"
+	@echo "... src/helloworld/ordered.i"
+	@echo "... src/helloworld/ordered.s"
+	@echo "... src/helloworld/simple.o"
+	@echo "... src/helloworld/simple.i"
+	@echo "... src/helloworld/simple.s"
+	@echo "... src/msg_exchange/broadcast.o"
+	@echo "... src/msg_exchange/broadcast.i"
+	@echo "... src/msg_exchange/broadcast.s"
+	@echo "... src/msg_exchange/main.o"
+	@echo "... src/msg_exchange/main.i"
+	@echo "... src/msg_exchange/main.s"
+	@echo "... src/mv_product/book_version.o"
+	@echo "... src/mv_product/book_version.i"
+	@echo "... src/mv_product/book_version.s"
+	@echo "... src/mv_product/ct_version.o"
+	@echo "... src/mv_product/ct_version.i"
+	@echo "... src/mv_product/ct_version.s"
+	@echo "... src/mv_product/dt_version.o"
+	@echo "... src/mv_product/dt_version.i"
+	@echo "... src/mv_product/dt_version.s"
+	@echo "... src/non_blocking/main.o"
+	@echo "... src/non_blocking/main.i"
+	@echo "... src/non_blocking/main.s"
 	@echo "... src/pingpong/main.o"
 	@echo "... src/pingpong/main.i"
 	@echo "... src/pingpong/main.s"
+	@echo "... src/somma/main.o"
+	@echo "... src/somma/main.i"
+	@echo "... src/somma/main.s"
 .PHONY : help
 
 
